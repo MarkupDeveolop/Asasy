@@ -8,11 +8,6 @@ function PakegeOne() {
     <>
         <section id="partners" className="py-5">
           <div className="container">
-            <SectionTitle
-              title="Our Pakges"
-              paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-              center
-            />
   
             <div className="flex flex-col gap-8">
                 <PakegesRender />

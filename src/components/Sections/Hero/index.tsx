@@ -28,23 +28,21 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className={`relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]`}
+        className={`relative z-10 overflow-hidden pb-16 pt-[110px] dark:bg-gray-dark md:pb-[20px] md:pt-[50px] xl:pb-[60px] xl:pt-[80px] 2xl:pb-[40px] 2xl:pt-[130px]`}
       >
 
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className={`grid grid-cols-1 gap-14 xl:grid-cols-2 ${
-                  local === "ar" ? "__rtl_lang" : ""
-                }`}
+                className={`grid grid-cols-1 xl:grid-cols-2 lg:gap-[8rem] items-center ${local === "ar" ? "__rtl_lang" : ""}`}
               >
                 <div className="CONTENT order-2 lg:order-1">
                   {heroContent.length >= 1
                     ? heroContent.map((item) => (
                         <div className="" key={item.id}>
                           <h1
-                            className={`mb-4 overflow-hidden text-3xl font-bold leading-tight text-black dark:text-white ${
+                            className={`mb-4 overflow-hidden lg:text-3xl  font-bold leading-tight text-black dark:text-white ${
                               local === "ar"
                                 ? ""
                                 : "text-[1.4rem] md:text-[1.6rem] lg:text-[1.9rem]"
@@ -55,8 +53,8 @@ const Hero = () => {
                               <Typewriter
                                 words={
                                   local === "ar"
-                                    ? ["سهله", "ذكيه", "امنه"]
-                                    : ["Easy", "Smart", "Safe"]
+                                    ? ["جودة", "راحة", "ثقة"]
+                                    : ["Quality", "Convenience", "Trust"]
                                 }
                                 loop={true}
                                 cursor
@@ -81,7 +79,7 @@ const Hero = () => {
                 </div>
 
                 {/* Swiper Slider for Deal Images */}
-                <div className="">
+                <div className="order-2 lg:order-2 ">
                   <BannerHeader />
                 </div>
               </div>

@@ -13,6 +13,7 @@ interface Data {
   imgSrc: any;
   title: string;
   subtitle: string;
+  desc: string;
   price: number;
 }
 
@@ -22,6 +23,7 @@ const PakegeData: Data[] = [
     imgSrc: Img01,
     title: "Tea Pakege your ideal partner for achieving your ideal partner for achieving0",
     subtitle: "your ideal partner for achieving",
+    desc: "5 oil | 8 Tea | 5 Sugar | 8 Rice | 5kg Broccoli",
     price: 30
 
   },
@@ -31,6 +33,8 @@ const PakegeData: Data[] = [
     imgSrc: Img02,
     title: "Tea Pakege your ideal partner for achieving your ideal partner for achieving0",
     subtitle: "your ideal partner for achieving",
+    desc: "Tea Pakege your ideal partner for achieving your ideal partner for achieving0 Tea Pakege your ideal partner for achieving your ideal partner for achieving0",
+
     price: 30
 
   },
@@ -40,6 +44,8 @@ const PakegeData: Data[] = [
     imgSrc: Img03,
     title: "Tea Pakege your ideal partner for achieving your ideal partner for achieving0",
     subtitle: "your ideal partner for achieving ",
+    desc: "5 oil | 8 Tea | 5 Sugar | 8 Rice | 5kg Broccoli",
+
     price: 30
 
   },
@@ -49,6 +55,8 @@ const PakegeData: Data[] = [
     imgSrc: Img04,
     title: "Tea Pakege your ideal partner for achieving your ideal partner for achieving",
     subtitle: "your ideal partner for achieving ",
+    desc: "5 oil | 8 Tea | 5 Sugar | 8 Rice | 5kg Broccoli",
+
     price: 30
 
   },
@@ -58,6 +66,8 @@ const PakegeData: Data[] = [
     imgSrc: Img05,
     title: "Tea Pakege your ideal partner for achieving your ideal partner for achieving",
     subtitle: "your ideal partner for achieving ",
+    desc: "5 oil | 8 Tea | 5 Sugar | 8 Rice | 5kg Broccoli",
+
     price: 30
 
   },
@@ -67,6 +77,8 @@ const PakegeData: Data[] = [
     imgSrc: Img06,
     title: "Tea Pakege your ideal partner for achieving your ideal partner for achieving",
     subtitle: "your ideal partner for achieving",
+    desc: "5 oil | 8 Tea | 5 Sugar | 8 Rice | 5kg Broccoli",
+
     price: 30
 
   },

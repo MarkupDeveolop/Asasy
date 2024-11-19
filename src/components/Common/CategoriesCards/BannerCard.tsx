@@ -7,13 +7,13 @@ interface BannerCardProps {
 
 const BannerCard: React.FC<BannerCardProps> = ({ imgSrc }) => {
   return (
-    <div>
+    <div className="lg:h-[35rem] ">
       <Image
         src={imgSrc}
         alt="user-image"
         width={0}
         height={0} // Consider setting a valid height or using responsive design
-        className="m-auto inline-block"
+        className="w-full m-auto inline-block shadow-2xl rounded-xl "
       />
     </div>
   );
